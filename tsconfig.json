@@ -1,8 +1,5 @@
 {
-  "compilerOptions": {"baseUrl": "",
-  paths: {
-  "@/app/": ["app/*"]
-  },
+  "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -20,7 +17,11 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": [
     "next-env.d.ts",
