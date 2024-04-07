@@ -1,5 +1,8 @@
 {
-  "compilerOptions": {
+  "compilerOptions": {"baseUrl": "",
+  paths: {
+  "@/app/": ["app/*"]
+  },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
